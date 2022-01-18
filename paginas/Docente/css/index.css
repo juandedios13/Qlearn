@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+header{
+	position: relative;
+	display: block;
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid #000;
+}
+
+.datoPersona{
+	position: relative;
+	display: block;
+	float: left;
+	width: 50%;
+	height: 100px;
+}
+
+#foto{
+	position: relative;
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 40px;
+	float: left;
+	border: 1px solid #000;
+	border-radius: 50%;
+}
+
+.nombrePersona{
+	position: relative;
+	display: block;
+	margin-left: 30px;
+	float: left;
+	line-height: 100px;
+}
+
+.salir{
+	position: relative;
+	display: block;
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+
+#salir{
+	position: relative;
+	display: block;
+	width: 100%;
+	margin-left: 50%;
+	line-height: 100px;
+}
+
+.body{
+	position: relative;
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+.menu{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 500px;
+	border-right: 1px solid #000;
+}
+
+.lista{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 60px;
+	padding: 10px;
+	line-height: 40px;
+	text-align: 20%;
+	padding-left: 20%;
+	border-bottom: 1px solid #000;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Qlearn</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Questrial|Roboto&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<meta charset="utf-8">
+</head>
+<body >
+	<div id="caja">
+		<div id="titulo-formulario">
+			<h1 id="titulo">Iniciar sesi&oacute;n</h1>
+		</div>
+		<form id="formulario1">
+			<label class="label1">Correo</label>
+			<input class="input" type="email" id="correo" name="correo" onblur="validarEmail()">
+			<label class="label1">Contrase&ntilde;a</label>
+			<input class="input" type="password" name="contrasena" >
+			<input id="enviar" type="submit" name="enviar" value="Enviar">
+			<label class="label2 label">¿<a href="paginas/recuperar_contrasena.html" id="registrarse">Olvidaste&nbsp; tu &nbsp;contrase&ntilde;a</a>?</label>
+			<label class="label3 label">¿<a href="paginas/registrarse.html" id="registrarse">Deseas&nbsp; registrarte</a>?</label>
+		</form>
+	</div>
+	<script src="js/validarRegistro.js"></script>
+</body>
+</html>

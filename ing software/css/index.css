@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Questrial', sans-serif;
+
+}
+body{
+	background: url("../img/fondo1.png");
+	background-attachment: fixed;
+	background-size: cover;
+}
+#caja{
+	position: absolute;
+	width: 30%;
+	height: 60vh;
+	right: 14%;
+	top: 20vh;
+	border-left: 1px solid #222;
+	border-top: 1px solid #222;
+	border-right: 2px solid #222;
+	border-bottom: 2px solid #222;
+	border-radius: 8px;
+	box-shadow: 2px 3px 2px 2px #222;
+	background: #fff;
+}
+
+#titulo-formulario{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	border-radius: 8px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background: #37e6a4;
+	text-align: justify;
+}
+
+#titulo{
+	font-family: 'Questrial', sans-serif;
+	margin-left: 30px;
+	font-size: 25px;
+	letter-spacing: 1px;
+	line-height: 50px;
+}
+
+label,input{
+	position: relative;
+	display: block;
+}
+
+#formulario1{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding-top: 70px;
+	padding-left: 20%;
+}
+
+.label1{
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.input{
+	width: 75%;
+	margin-bottom: 30px;
+	font-size: 13px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+    background-color: #a2e6d0;
+    border: 1px solid #3bc89b;
+}
+
+.input:focus{
+	background-color: #c2f6e0;
+	border: 1px solid #ec3413;
+	border: 1px solid #f7807e;
+	border: 1px solid #04925c;
+}
+
+#enviar{
+	margin-top: 10px;
+    text-decoration: none;
+    width: 50%;
+    margin-left: 12.5%;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: #37e6a4;
+    border-radius: 6px;
+    border: 1px solid #3bc89b;
+}
+
+#enviar:hover{
+    color: #000;
+    background-color: #ffffff;
+}
+
+.label{
+	margin-top: 10px;
+}
+
+.label2{
+	margin-top: 20px;
+	margin-left: 13%;
+}
+
+.label3{
+	margin-top: 2px;
+	margin-left: 17.8%;
+}
+
+#registrarse{
+	color: #000;
+}

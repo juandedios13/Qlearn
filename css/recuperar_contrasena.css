@@ -1,0 +1,28 @@
+@media screen and (min-width: 1025px){
+	#caja{
+		width: 35%;
+		height: 480px;
+		top: 20vh;
+		margin-left: 32.5%; 
+	}
+
+	#enviar{
+		margin-bottom: 20px;
+	}
+
+	.label2{
+		margin-top: 20px;
+	}
+
+	.label3{
+		margin-top: 2px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#caja{
+		height: 250px;
+		top: 8vh; 
+	}
+
+}

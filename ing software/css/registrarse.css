@@ -1,0 +1,68 @@
+#caja{
+	width: 40%;
+	height: 645px;
+	top: 10vh;
+	right: 8%;
+}	
+
+#formulario1{
+	padding-top: 30px;
+	padding-left: 0;
+}
+
+.Datos1{
+	position: relative;
+	display: inline-block;
+	width: 49%;
+	padding-left: 6.5%;
+}
+
+.labelDatos{
+	margin-bottom: 8px;
+}
+
+.Datos2{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding-left: 6.5%;
+}
+
+.input{
+	width: 94%;
+	margin-bottom: 20px;
+}
+
+.inputDatos{
+	width: 90%;
+	margin-bottom: 20px;
+
+}
+
+.obligatorio{
+	color: red;
+}
+
+.inputSelect{
+	width: 30%;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+#enviar{
+	margin-left: 25%;
+}
+
+.label2{
+	margin-left: 30%;
+	margin-top: 15px;
+}
+
+.label3{
+	margin-left: 30%;	
+}
+
+.label{
+	text-align: center;
+	width: 40%;
+}

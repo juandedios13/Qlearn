@@ -1,0 +1,75 @@
+#caja{
+	height: 590px;
+	top: 15vh;
+}
+
+#titulo-formulario{
+	position: relative;
+	width: 100%;
+}
+
+.label1{
+	position: relative;
+	left: 0%;
+	padding-left: 5%;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+
+.l1{
+	margin-top: -20px;
+}
+
+.label{
+	text-align: center;
+	left: 0%;
+	margin-top: 10px;
+	height: 20px;
+}
+
+.label2{
+	margin-top: 0px;
+	height: 25px;
+}
+
+#enviar{
+	position: relative;
+	margin-bottom: 0px;
+	width: 41.5%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 2%;
+	height: 40px;
+}
+
+.tres{
+	position: relative;
+	top: 10px;
+    text-decoration: none;
+    width: 41.5%;
+    margin-left: 25%;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: rgb(255,159,0);
+    border-radius: 6px;
+    border: 1px solid rgb(70,70,70);
+    display: none;
+    float: left;
+	margin-left: 5%;
+	margin-right: 2%;
+	height: 40px;
+}
+
+.dos{
+	float: none;
+	display: block;
+}
+
+.obligatorio{
+	color: red;
+}
+
+#formulario1{
+	display: block;
+}

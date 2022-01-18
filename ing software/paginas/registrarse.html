@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrarse - Qlearn</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Questrial|Roboto&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/registrarse.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="caja">
+		<div id="titulo-formulario">
+			<h1 id="titulo">Registrarse</h1>
+		</div>
+		<form id="formulario1">
+			<div class="Datos1">
+				<label class="labelDatos label1">1<sup>er</sup>&nbsp; Nombre&nbsp;<span class="obligatorio">*</span></label>
+				<input class="inputDatos input" type="text" name="primerNombre" id="primerNombre" onkeyup="validartext('primerNombre')">
+				<label class="labelDatos label1">1<sup>er</sup>&nbsp; Nombre&nbsp;<span class="obligatorio">*</span></label>
+				<input class="inputDatos input" type="text" name="primerApellido" id="primerApellido" onkeyup="validartext('primerApellido')">
+			</div>
+			<div class="Datos1">
+				<label class="labelDatos label1">2<sup>do</sup>&nbsp; Nombre</label>
+				<input class="inputDatos input" type="text" name="segundoNombre"  id="segundoNombre" onkeyup="validartext('segundoNombre')">
+				<label class="labelDatos label1">2<sup>do</sup>&nbsp; Nombre&nbsp;<span class="obligatorio">*</span></label>
+				<input class="inputDatos input" type="text" name="segundoApellido" id="segundoApellido" onkeyup="validartext('segundoApellido')">
+			</div>
+			<div class="Datos2">
+				<label class="label1">Correo <span class="obligatorio">*</span></label>
+				<input class="input" type="email" name="correo" id="correo" onblur="validarEmail()">
+				<label class="label1">Contrase&ntilde;a <span class="obligatorio">*</span></label>
+				<input class="input" type="password" name="contrasena" id="contrasena" onblur="validarContra()">
+				<label class="label1">tipo de usuario <span class="obligatorio">*</span></label>
+				<select name="tipo" class="inputSelect">
+				    <option>Docente</option>
+				    <option>Estudiante</option>
+				</select>
+				<input id="enviar" type="submit" name="enviar" value="Enviar">
+				<label class="label2 label">¿<a href="recuperar_contrasena.html" id="registrarse">Olvidaste&nbsp; tu &nbsp;contrase&ntilde;a</a>?</label>
+				<label class="label3 label">¿<a href="../index.html" id="registrarse">Ya tienes una cuenta</a>?</label>
+			</div>
+			<script src="../js/validarRegistro.js"></script>
+		</form>
+	</div>
+</body>
+</html>

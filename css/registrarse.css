@@ -1,0 +1,243 @@
+.obligatorio{
+		color: red;
+}
+
+p#error {
+	margin-top: 0px;
+	display: none;
+	color: red;
+}
+@media screen and (min-width: 801px){ 
+	#caja{
+		width: 50%;
+		height: 870px;
+		top: 10vh;
+		margin-left: 25%;
+		margin-bottom: 20vh;
+	}
+
+	#titulo-formulario{
+		height: 230px;
+	}
+
+	#titulo-form{
+		text-align: justify;
+	}
+
+	#registrar{
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 40px;
+		margin-top: 30px;
+		line-height: 40px;
+		text-align: center;
+		background-color: #414141;
+		font-size: 18px;
+	}
+
+	#registrar p{
+		display: block;
+		margin-left: 20px;
+		color: #fff;
+	}
+
+	#formulario1{
+		padding-top: 30px;
+		padding-left: 0;
+		text-align: justify;
+		height: 450px;
+	}
+
+	.nombres{
+		position: relative;
+		width: 100%;
+		height: 90px;
+	}
+
+	.input{
+		width: 90%;
+		margin-left: 5%;
+		margin-bottom: 20px;
+	}
+
+	.inputNombre{
+		position: absolute;
+		float: left;
+		top: 40px;
+		width: 40%;
+		margin-bottom: 20px;
+	}
+
+	.input2{
+		left: 50%;
+	}
+
+	.labelNombre{
+		position: absolute;
+		left: 5%;
+		top: 10px;
+		float: left;
+	}
+
+	#errorn{
+		position: absolute;
+		left: 5%;
+		top: 90px;
+		float: left;
+		color: red;
+	}
+
+	#errora{
+		position: absolute;
+		left: 5%;
+		top: 185px;
+		float: left;
+		color: red;
+	}
+
+	.label2{
+		margin-top: 0px;
+		top: 10px;
+		left: 55%;
+	}
+
+	.inputApellidos{
+		position: absolute;
+		float: left;
+		top: 40px;
+		width: 40%;
+		margin-bottom: 20px;
+	}
+
+	.input22{
+		left: 50%;
+	}
+
+	.labelApellidos{
+		position: absolute;
+		left: 5%;
+		top: 15px;
+		float: left;
+	}
+
+	.label22{
+		margin-top: 0px;
+		top: 10px;
+		left: 55%;
+	}
+
+	.Datos2{
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 350px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.label1{
+		position: relative;
+		left: 5%;
+		margin-bottom: 5px;
+	}
+
+	.inputSelect{
+		position: relative;
+		left: 5%;
+		width: 30%;
+		padding: 5px;
+		margin-bottom: 20px;
+		margin-top: 5px;
+		
+	}
+
+	#enviar{
+		margin-left: 25%;
+		margin-bottom: 10px;
+	}
+
+	.label3{
+		width: 100%;
+		text-align: center;
+	}
+
+	p#error {
+		margin-top: -10px;
+		display: none;
+		color: red;
+	}
+
+	p#errorc {
+		width: 90%;
+		margin-top: -10px;
+		display: none;
+		color: red;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	#caja{
+		width: 60%;
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#caja{
+		width: 80%;
+		height: 695px;
+		margin-left: 10%;
+		margin-bottom: 15vh;
+	}
+
+	.labelNombre{
+		position: relative;
+		margin-left: 7.5%;
+		float: left;
+		margin-bottom: 5px;
+	}
+
+	.labelApellidos{
+		position: relative;
+		margin-left: 7.5%;
+		float: left;
+		margin-bottom: 5px;
+		margin-top: 10px;
+	}
+
+	.label1{
+		position: relative;
+		text-align: justify;
+		left: 7.5%;
+		margin-top: 10px;
+	}
+
+	.label2{
+		margin-top: 10px;
+	}
+
+	.input{
+		position: relative;
+		margin-bottom: 0px;
+		margin-top: 5px;
+	}
+
+	.l{
+		margin-top: 8px;
+	}
+
+	.inputSelect{
+		position: relative;
+		display: block;
+		left: 7.5%;
+		width: 30%;
+		padding: 5px;
+		margin-bottom: 20px;
+		margin-top: 5px;
+	}
+
+	#enviar{
+		position: relative;
+	}
+}
